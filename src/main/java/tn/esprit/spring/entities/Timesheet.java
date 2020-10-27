@@ -10,7 +10,8 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Timesheet implements Serializable{
 
-	private static final long serialVersionUID = 3876346912862238239L;
+
+private static final long serialVersionUID = 3876346912862238239L;
 
 	@EmbeddedId
 	private TimesheetPK timesheetPK;
@@ -61,7 +62,6 @@ public class Timesheet implements Serializable{
 	public void setEmploye(Employe employe) {
 		this.employe = employe;
 	}
-
 	
 	
 }
