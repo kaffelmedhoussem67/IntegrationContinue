@@ -12,12 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class EmployeServiceImpl implements IEmployeService {
 	@Autowired
 	EmployeRepository employeRepository;
-	@Autowired
-	DepartementRepository deptRepoistory;
-	@Autowired
-	ContratRepository contratRepoistory;
-	@Autowired
-	TimesheetRepository timesheetRepository;
+	
 
 	public int ajouterEmploye(Employe employe) {
 		employeRepository.save(employe);
