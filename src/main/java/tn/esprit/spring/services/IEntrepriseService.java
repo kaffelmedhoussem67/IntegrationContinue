@@ -11,6 +11,6 @@ import tn.esprit.spring.repository.EntrepriseRepository;
 @Service
 public interface IEntrepriseService {
 	
-	
+	public Entreprise getEntrepriseById(int entrepriseId);
 
 }
