@@ -1,15 +1,8 @@
-<<<<<<< HEAD
+
 package tn.esprit.spring.controller;
 
 import org.springframework.stereotype.Controller;
 
-@Controller
-public class IControllerDepartementImpl {
-
-}
-||||||| 87217e8
-=======
-package tn.esprit.spring.controller;
 
 import java.util.List;
 
@@ -43,4 +36,4 @@ public class IControllerDepartementImpl {
 	
 	
 }
->>>>>>> kaffel-integration
+

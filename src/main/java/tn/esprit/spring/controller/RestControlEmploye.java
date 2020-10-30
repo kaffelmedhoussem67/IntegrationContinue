@@ -1,11 +1,9 @@
 package tn.esprit.spring.controller;
 
-<<<<<<< HEAD
 import java.util.Date;
 import java.util.List;
 
 
-||||||| 87217e8
 import java.util.Date;
 import java.util.List;
 
@@ -21,10 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-=======
 
 
->>>>>>> kaffel-integration
 import org.springframework.web.bind.annotation.RestController;
 
 
