@@ -1,24 +1,12 @@
 package tn.esprit.spring.services;
 
+import java.util.List;
 
-
-
+import tn.esprit.spring.entities.Departement;
+import tn.esprit.spring.entities.Entreprise;
 
 public interface IEntrepriseService {
 	
-//	
-//	@Autowired
-//	EntrepriseRepository entrepriseRepository;
-//
-//	
-//	
-//	public List<Entreprise> findAllEntreprisebyEmployeJPQL(int entid) {
-//		return entrepriseRepository.findAllEntrepriseByEmployeJPQL(entid);
-//	}
-//
-//	
-//	public List<Entreprise> getAllEmployeByMission(int missionId) {
-//		return entrepriseRepository.getAllEntrepriseByMission(missionId);
-//	}
-
+	
+	public Entreprise getEntrepriseById(int entrepriseId);
 }

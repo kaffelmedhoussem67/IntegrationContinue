@@ -10,6 +10,5 @@ import tn.esprit.spring.entities.Entreprise;
 
 public interface EntrepriseRepository extends CrudRepository<Entreprise, Integer>  {
 	
-	public List<Entreprise> findAllEntrepriseyEmployeJPQL(int entid);
-	public List<Entreprise> getAllEmployeByMission(int missionId);
+
 }
