@@ -18,6 +18,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Departement implements Serializable {
+<<<<<<< HEAD
 
 
 	private static final long serialVersionUID = -357738161698377833L;
@@ -35,6 +36,8 @@ public class Departement implements Serializable {
 	
 	@OneToMany(mappedBy="departement")
 	private List<Mission> missions;
+=======
+>>>>>>> feres-integration
 	
 	@ManyToOne
 	private Entreprise entreprise;
