@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import tn.esprit.spring.entities.Departement;
+<<<<<<< HEAD
+=======
+import tn.esprit.spring.entities.Employe;
+>>>>>>> d3ee4bd0ffb0c6f5eb01fca4d6e01b39048708e5
 import tn.esprit.spring.entities.Entreprise;
 import tn.esprit.spring.repository.DepartementRepository;
 import tn.esprit.spring.repository.EntrepriseRepository;
@@ -20,6 +24,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	@Autowired
 	DepartementRepository deptRepoistory;
 	
+<<<<<<< HEAD
 	public int ajouterEntreprise(Entreprise entreprise) {
 		entrepriseRepoistory.save(entreprise);
 		return entreprise.getId();
@@ -70,5 +75,12 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	}
 
 	
+=======
+	
+
+	public Entreprise getEntrepriseById(int entrepriseId) {
+		return entrepriseRepoistory.findById(entrepriseId).get();	
+	}
+>>>>>>> d3ee4bd0ffb0c6f5eb01fca4d6e01b39048708e5
 
 }
