@@ -1,7 +1,6 @@
 
 package tn.esprit.spring.controller;
 
-import org.springframework.web.bind.annotation.RestController;
 
 
 
@@ -27,7 +26,7 @@ public class RestControlDepartement {
 	@Autowired
 	IDepartementService iDepartementservice;
 	
-	@PostMapping("/ajouterDepartement")
+	/*@PostMapping("/ajouterDepartement")
 	@ResponseBody
 	public Departement ajouterDepartement(@RequestBody Departement departement)
 	{
@@ -35,7 +34,7 @@ public class RestControlDepartement {
 		l.info("Departement ajouté ");
 
 		return departement;
-	}
+	}*/
 	
     @DeleteMapping("/deleteDepartementById/{idemp}") 
 	@ResponseBody 

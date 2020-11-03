@@ -78,10 +78,5 @@ public class Mission implements Serializable {
 	public void setTimesheets(List<Timesheet> timesheets) {
 		this.timesheets = timesheets;
 	}
-<<<<<<< HEAD
-	
-	
-=======
->>>>>>> 24c8948f7964cc5e3ce9940fae04bc7dc0ad66af
 
 }
