@@ -27,7 +27,7 @@ public class RestControlDepartement {
 	@Autowired
 	IDepartementService iDepartementservice;
 	
-	@PostMapping("/ajouterDepartement")
+	/*@PostMapping("/ajouterDepartement")
 	@ResponseBody
 	public Departement ajouterDepartement(@RequestBody Departement departement)
 	{
@@ -36,6 +36,7 @@ public class RestControlDepartement {
 
 		return departement;
 	}
+	*/
 	
     @DeleteMapping("/deleteDepartementById/{idemp}") 
 	@ResponseBody 
