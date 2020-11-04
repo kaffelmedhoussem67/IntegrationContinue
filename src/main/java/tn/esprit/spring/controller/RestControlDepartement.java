@@ -26,31 +26,7 @@ public class RestControlDepartement {
 	@Autowired
 	IDepartementService iDepartementservice;
 	
-<<<<<<< HEAD
 
-||||||| 62e3370
-	/*@PostMapping("/ajouterDepartement")
-	@ResponseBody
-	public Departement ajouterDepartement(@RequestBody Departement departement)
-	{
-		iDepartementservice.ajouterDepartement(departement);
-		l.info("Departement ajouté ");
-
-		return departement;
-	}*/
-=======
-	/*@PostMapping("/ajouterDepartement")
-	@ResponseBody
-	public Departement ajouterDepartement(@RequestBody Departement departement)
-	{
-		iDepartementservice.ajouterDepartement(departement);
-		l.info("Departement ajouté ");
-
-		return departement;
-<<<<<<< HEAD
-	}*/
-
->>>>>>> 17edffed07202f9bd252fd7ca7d14669a16be546
 	
     @DeleteMapping("/deleteDepartementById/{idemp}") 
 	@ResponseBody 
