@@ -34,7 +34,9 @@ public class RestControlDepartement {
 		l.info("Departement ajouté ");
 
 		return departement;
+<<<<<<< HEAD
 	}*/
+
 	
     @DeleteMapping("/deleteDepartementById/{idemp}") 
 	@ResponseBody 

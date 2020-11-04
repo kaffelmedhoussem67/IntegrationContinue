@@ -19,7 +19,13 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Entity
 public class Departement implements Serializable {
 
+
+
+	
+
 	private static final long serialVersionUID = -357738161698377833L;
+
+
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -34,6 +40,7 @@ public class Departement implements Serializable {
 	
 	@OneToMany(mappedBy="departement")
 	private List<Mission> missions;
+
 	
 	@ManyToOne
 	private Entreprise entreprise;
@@ -82,9 +89,13 @@ public class Departement implements Serializable {
 		return entreprise;
 	}
 
+
 	public void setEntreprise(Entreprise entreprise) {
 		this.entreprise = entreprise;
 	}
+
+
+	
 	
 	
 
