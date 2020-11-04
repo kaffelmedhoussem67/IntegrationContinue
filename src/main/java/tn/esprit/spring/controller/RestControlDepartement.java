@@ -27,7 +27,16 @@ public class RestControlDepartement {
 	IDepartementService iDepartementservice;
 	
 
-	
+	/*@PostMapping("/ajouterDepartement")
+	@ResponseBody
+	public Departement ajouterDepartement(@RequestBody Departement departement)
+	{
+		iDepartementservice.ajouterDepartement(departement);
+		l.info("Departement ajouté ");
+
+		return departement;
+	}*/
+
     @DeleteMapping("/deleteDepartementById/{idemp}") 
 	@ResponseBody 
 	public void deleteDepartementById(@PathVariable("idemp")int DepartementId) {
