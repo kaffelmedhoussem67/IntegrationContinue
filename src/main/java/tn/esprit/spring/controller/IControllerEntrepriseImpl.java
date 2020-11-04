@@ -13,7 +13,6 @@ import tn.esprit.spring.services.ITimesheetService;
 
 @Controller
 public class IControllerEntrepriseImpl{
-
 	@Autowired
 	IEmployeService iemployeservice;
 	@Autowired
@@ -21,6 +20,7 @@ public class IControllerEntrepriseImpl{
 	@Autowired
 	ITimesheetService itimesheetservice;
 
+	
 	public int ajouterEntreprise(Entreprise ssiiConsulting) {
 		ientrepriseservice.ajouterEntreprise(ssiiConsulting);
 		return ssiiConsulting.getId();
@@ -50,3 +50,4 @@ public class IControllerEntrepriseImpl{
 
 	}
 }
+

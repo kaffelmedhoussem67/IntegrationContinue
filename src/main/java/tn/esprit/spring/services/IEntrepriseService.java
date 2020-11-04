@@ -13,7 +13,7 @@ import tn.esprit.spring.repository.EntrepriseRepository;
 public interface IEntrepriseService {
 	
 
-	
+
 	
 
 	public int ajouterEntreprise(Entreprise entreprise);
@@ -24,6 +24,7 @@ public interface IEntrepriseService {
 	public Entreprise getEntrepriseById(int entrepriseId);
 	public void deleteEntrepriseById(int entrepriseId);
 	
+
 
 
 }
